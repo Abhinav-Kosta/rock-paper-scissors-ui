@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <h2>Player select your choice to start the game</h2>
+
+    <div class="round-selection">
+        <h2>Select Number of Rounds</h2>
+        <button class="round-btn">3</button>
+        <button class="round-btn">5</button>
+        <button class="round-btn">7</button>
+    </div>
+
+    <!-- style="display: none;" -->
+    <div class="choices stay-hide">
+        <h2>Choose: </h2>
+        <button class="choice-btn">Rock</button>
+        <button class="choice-btn">Paper</button>
+        <button class="choice-btn">Scissors</button>
+    </div>
+
+    <div class="mainDiv">
+        <div class="player-section">
+            <h2>User</h2>
+            <div class="subDiv">
+                <img src="rockLeft.jpg" class="stay-hide img" id="RockL" alt="none">
+                <img src="paperLeft.png" class="stay-hide img" id="PaperL" alt="none">
+                <img src="scissorLeft.png" class="stay-hide img" id="ScissorsL" alt="none">
+            </div>
+            <p class="score scoreP">Player Won: 0</p>
+        </div>
+    
+        <div class="vs-text">V/S</div>
+    
+        <div class="player-section">
+            <h2>System</h2>
+            <div class="subDiv">
+                <img src="rockRight.png" class="stay-hide img" id="RockR" alt="none">
+                <img src="paperRIght.png" class="stay-hide img" id="PaperR" alt="none">
+                <img src="scissorRight.png" class="stay-hide img" id="ScissorsR" alt="none">
+            </div>
+            <p class="score scoreS">System Won: 0</p>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFEECC;
+    /* background-color: #A8DADC; */
+}
+
+.mainDiv {
+    display: flex;
+
+    background-color: #FFB400;
+    /* background-color: #457B9D; */
+
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+
+    border: 10px solid #262626;
+    border-radius: 20px;
+}
+
+.player-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subDiv {
+    height: 300px;
+    width: 320px;
+
+    background-color: #FF6363;
+    /* background-color: #F4A261; */
+
+    margin: 20px;
+
+    border: 6px solid #262626;
+    border-radius: 40px;
+}
+
+.vs-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+    /* margin: 0 20px; Adds space between the text and the blocks */
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.round-btn {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FF6363;
+
+    font-size: medium;
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.choice-btn {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FF6363;
+
+    font-size: medium;
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.stay-hide{
+    display: none;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.img {
+    margin-top:20px;
+    margin-left: 20px;
+    height: 250px;
+    width: 275px;
+}
